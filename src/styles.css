@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "tailwindcss";
+
+@theme {
+
+    --font-madimi: "Madimi One", "sans-serif";
+    --font-nunito: "Nunito";
+    --font-bebas: "Bebas Neue";
+
+    --color-primaria: #E25822;
+    /* Laranja escuro */
+    --color-secundaria: #FE8330;
+    /* Laranja médio */
+    --color-terciaria: #FFA732;
+    /* Laranja claro */
+    --color-cinza: #8F8C8A;
+    /* Cinza quente */
+}
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+}
